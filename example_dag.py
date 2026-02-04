@@ -2,7 +2,6 @@
     from airflow import DAG
     from airflow.operators.bash import BashOperator
     from dag_management_plugin.timetables import CronTriggerTimetable, MultipleCronTriggerTimetable, get_schedule_from_variable
-    import pendulum
 
     dag1 = DAG(
         'example_multiple_cron',
