@@ -1,4 +1,3 @@
-# Airflow-Scheduler-Plugin
 # Airflow DAG Management Plugin
 
 Advanced DAG schedule management plugin developed for Apache Airflow. This plugin enables you to visualize, manage, and dynamically update DAG schedules through the web interface.
