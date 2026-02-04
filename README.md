@@ -36,8 +36,6 @@ Advanced DAG schedule management plugin developed for Apache Airflow. This plugi
 - **Modular Architecture**: Modular code structure following enterprise standards
 - **Error Management**: Advanced error handling with custom exception classes
 - **Timezone Management**: Timezone reading from Airflow config and environment variable override support
-- **Responsive Design**: Interface compatible with mobile and desktop devices
-- **CSRF Protection**: Secure API endpoints
 
 ### Performance
 - **Efficient Run Calculation**: Date range-based run calculation
