@@ -51,7 +51,7 @@ Advanced DAG schedule management plugin developed for Apache Airflow. This plugi
 - **Configurable Limits**: Adjustable upcoming runs limit and day count
 - **API Route Customization**: Customize API endpoint routes
 
-**Note**: This project is actively under development. New features and improvements will be added soon.
+**Note**: Additional code and features will be added in future updates.
 
 ---
 
