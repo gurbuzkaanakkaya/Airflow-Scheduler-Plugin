@@ -8,7 +8,6 @@ Advanced DAG schedule management plugin developed for Apache Airflow. This plugi
 - **Web UI Integration**: Schedule management modal integrated into the Airflow web interface
 - **Dynamic Schedule Updates**: Update DAG schedules dynamically through Airflow Variables
 - **Schedule Validation**: Cron expression validation and error checking
-- **Schedule Clearing**: Support for removing schedules using the "None" option
 
 ### Cron Expression Support
 - **Single Cron Expression**: Standard cron expression support (`CronTriggerTimetable`)
