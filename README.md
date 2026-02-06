@@ -44,13 +44,13 @@ Advanced DAG schedule management plugin developed for Apache Airflow. This plugi
 
 ### Authentication
 
-    The plugin integrates with Airflow's built-in authentication system (Flask-AppBuilder). All API endpoints check user permissions before allowing operations.
-
+    #### General User Permissions
     - ✅ Can view DAGs and upcoming runs
-    
-    - **Admin Role Only**:
+
+    #### Admin Role Specific Permissions
     - ✅ Can update schedules
     - ❌ Non-admin users will receive 403 Forbidden when attempting to update schedules
+    
 ![permission](https://github.com/user-attachments/assets/285e3d1c-b29e-4ece-9f84-b3bd5582b177)
 
 **Note**: Additional code and features will be added in future updates.
