@@ -42,6 +42,16 @@ Advanced DAG schedule management plugin developed for Apache Airflow. This plugi
 - **Caching**: Caching of DAG bag and timezone information
 - **Optimized Iteration**: Prevention of unnecessary iterations
 
+### Authentication
+
+    The plugin integrates with Airflow's built-in authentication system (Flask-AppBuilder). All API endpoints check user permissions before allowing operations.
+
+    The Viewer role can:
+    - ✅ View DAGs and upcoming runs
+    - ❌ Cannot update schedules (will receive 403 Forbidden)
+
+    ![permission](https://github.com/user-attachments/assets/285e3d1c-b29e-4ece-9f84-b3bd5582b177)
+
 **Note**: Additional code and features will be added in future updates.
 
 ---
