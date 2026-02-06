@@ -43,11 +43,15 @@ Advanced DAG schedule management plugin developed for Apache Airflow. This plugi
 - **Caching**: Caching of DAG bag and timezone information
 - **Optimized Iteration**: Prevention of unnecessary iterations
 
-### Configuration
-- **Environment Variables**: Customize plugin behavior through environment variables
-- **Airflow Config Integration**: Use Airflow's default timezone setting
-- **Configurable Limits**: Adjustable upcoming runs limit and day count
-- **API Route Customization**: Customize API endpoint routes
+### Authentication
+
+    The plugin integrates with Airflow's built-in authentication system (Flask-AppBuilder). All API endpoints check user permissions before allowing operations.
+
+    The Viewer role can:
+    - ✅ View DAGs and upcoming runs
+    - ❌ Cannot update schedules (will receive 403 Forbidden)
+    
+![permission](https://github.com/user-attachments/assets/ce50b011-1a57-4cc1-83b3-93600281f6e3)
 
 **Note**: Additional code and features will be added in future updates.
 
