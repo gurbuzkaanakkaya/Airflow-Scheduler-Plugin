@@ -25,8 +25,8 @@ Advanced DAG schedule management plugin developed for Apache Airflow. This plugi
 - **Calendar View**: Display upcoming DAG runs in calendar format
 - **Table View**: List upcoming runs in table format
 - **Timezone Support**: Correct time display for different timezones
-- **Date Range**: Calculate future runs for 30 days
-- **Limit Control**: Maximum 200 run display
+- **Date Range**: Calculate future runs for 30 days(Replaceable)
+- **Limit Control**: Maximum 200 run display(Replaceable)
 - **Real-time Calculation**: Instant run calculation on schedule changes
 
 ### Technical Features
