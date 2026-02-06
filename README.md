@@ -51,7 +51,8 @@ Advanced DAG schedule management plugin developed for Apache Airflow. This plugi
     - ✅ Can update schedules
     - ❌ Non-admin users will receive 403 Forbidden when attempting to update schedules
     
-![permission](https://github.com/user-attachments/assets/285e3d1c-b29e-4ece-9f84-b3bd5582b177)
+![PERMISSION](https://github.com/user-attachments/assets/64e35db5-4a83-4729-bc8a-1e9e1b90cf2d)
+
 
 **Note**: Additional code and features will be added in future updates.
 
