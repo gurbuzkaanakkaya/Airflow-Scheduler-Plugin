@@ -44,10 +44,10 @@ Advanced DAG schedule management plugin developed for Apache Airflow. This plugi
 
 ### Authentication
 
-     General User Permissions
-    - ✅ Can view DAGs and upcoming runs
+    General User Permissions
+    - ✅ Can view upcoming runs
 
-     Admin Role Specific Permissions
+    Admin Role Specific Permissions
     - ✅ Can update schedules
     - ❌ Non-admin users will receive 403 Forbidden when attempting to update schedules
     
